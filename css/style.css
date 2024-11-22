@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  margin: 16px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.corpo {
+  padding: 25px;
+  background-color: #fff;
+}
+
+.titulo {
+  font-size: 30px;
+  margin: 0;
+}
+
+.descricao {
+  font-size: 11px;
+  color: #555;
+  margin: 8px 0 16px;
+}
+
+.botao {
+  width: 100%;
+  background-color: #f76c6c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #e05b5b;
+}
+
+.botao a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  background-color: #ff6347;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
